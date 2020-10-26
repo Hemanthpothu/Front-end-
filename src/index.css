@@ -5,9 +5,252 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: rgb(247, 221, 104); */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.hemanth
+{
+  color:green;
+}
+.alekhya
+{
+  color:rgb(235, 183, 183);
+
+}
+.grid-container
+{
+  display: grid;
+  grid-template-rows: 60px 80px 280px 700px 80px;
+  grid-template-columns: 80px auto;
+/* grid-column-gap: 3px; */
+/* grid-row-gap: 6px; */
+}
+.grid-item
+{
+  border: -1px solid rgb(252, 252, 252);
+  grid-row-gap: 3px;
+}
+.section3
+{
+  border: 1px solid rgb(199, 185, 185);
+  width: 1220px;
+  height: 925px;
+  margin: 60px;
+  box-shadow: 0.5px 0.5px rgb(158, 158, 158) ;
+}
+.hemanth2
+{
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.header{
+  color:rgb(131, 37, 37) ;
+}
+.container3
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.griditems
+{
+  border: 1px solid rgb(252, 250, 250);
+  /* margin-bottom: 4px; */
+}
+.contain1
+{
+  display: grid;
+  grid-template-columns:100px auto ;
+  grid-template-rows: 14px 92px 1030px;
+  grid-row-gap: 2px;
+  grid-column-gap: 3px;
+}
+.card
+{
+    
+    width: 300px;
+    height: 170px;
+    margin: 10px;
+    margin-top: 56px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    /* border: 2px solid rgba(8, 7, 7, 0.164); */
+    background-color: white;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.plane img
+{
+  width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.plane h2
+{
+  margin-top: 30px;
+
+}
+.ceos 
+{
+  margin-left: 55px;
+  margin-top: -10px;
+  color: rgb(124, 117, 117);
+  margin-bottom: 70px;
+}
+.ces{
+  margin-left: 55px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.star img{
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+.star{
+  margin-left: 55px;
+}
+.docs img
+{
+  width: 200px;
+  height: 200px;
+}
+.boxing
+{
+  width: 680px;
+  height: 90px;
+  /* border: 1px solid  rgb(124, 117, 117); */
+  background-color: rgb(241, 241, 241);
+  margin-left: 55px;
+  margin-top: 10px;
+}
+.button
+{
+  margin-left: 55px;
+  margin-top: 15px;
+  /* background-color: blue; */
+}
+.docs{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 210px;
+  margin-bottom: 30px;
+}
+.ceo
+{
+  display: flex;
+  margin-left: 55px;
+  margin-top: 30px;
+}
+.submit
+{
+  margin-right: 30px;
+}
+.ceo img
+{
+  width:30px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.docs
+{
+  margin-left: 55px;
+
+}
+.Theory p
+{
+
+  margin-left: 55px;
+  margin-right: 70px;
+  color: rgb(124, 117, 117);
+}
+.plane{
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.align1 img
+{
+  width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.laks
+{
+  color:red;
+  height: 20px;
+}
+.aside1
+{
+  width: 77px;
+  margin-top: 13px;
+  height: 1008px;
+  border:1px solid rgb(238, 229, 229);
+}
+.bex
+{
+    width:1290px;
+    height: 100px;
+    background-color:rgb(255, 255, 255);
+    margin: 20px;
+    margin-left: 36px;
+    border: 1px solid rgb(252, 240, 240);
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+.align1 
+{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 13px;
+    margin-right: 20px;
+
+}
+.bex1
+{
+   margin: auto;
+   margin-top: 30px;
+   border: 1px solid rgba(243, 233, 233, 0.678);
+   background-color: rgb(238, 237, 237);
+   width: 1360px;
+}
+.Navbar
+{
+  display: flex;
+  border: 1px solid rgb(248, 227, 199);
+  box-shadow: 0px 3px rgb(65, 60, 59);
+
+}
+.Navbar2
+{
+  width: 60px;
+  height: 60px;
+  margin-left: 1145px;
+  margin-top: 10px;
+}
+.asideimg
+{
+    width: 48px;
+    height: 48px;
+    margin-top: 16px;
+    padding-left: 10px;
+}
+.Navbar1
+{
+  color:rgb(125, 231, 178);
+  margin-left: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
